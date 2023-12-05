@@ -31,6 +31,7 @@ report/_build/html/index.html : report/count_report.ipynb report/_toc.yml report
 clean:
 	rm -f results/*.dat
 	rm -f results/figure/*.png
+	rm -rf report/_build
 
 .PHONY: clean
 
